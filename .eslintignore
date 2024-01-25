@@ -1,0 +1,27 @@
+# don't ever lint node_modules
+node_modules
+# don't lint build output (make sure it's set to your correct build folder name)
+dist
+# don't lint nyc coverage output
+coverage
+
+# OSX
+.DS_Store
+
+# Package.json
+package.json
+.travis.yml
+*.css.d.ts
+*.sass.d.ts
+*.scss.d.ts
+
+# Logs
+logs
+*.log
+
+.eslintcache
+build
+cache
+types/generated
+.tmp
+.strapi/client
